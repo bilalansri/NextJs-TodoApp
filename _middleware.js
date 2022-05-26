@@ -4,6 +4,7 @@ import {verify} from "jsonwebtoken";
 // Not Used Right Now Just for Saving it Beacuse We got error 
 // For use just move this file into pages or api
 // made for protecting Routes
+// but i managed to protect it with sessions
 
 export function middleware (req) {
   const { cookies } = req;
