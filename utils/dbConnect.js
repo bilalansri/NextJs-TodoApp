@@ -9,7 +9,7 @@ async function dbConnect() {
 
   const db = await mongoose
     .connect(
-      "mongodb+srv://admin:nimda@cluster0.h7ye9.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+// Add MongoDB Link
       {
         useUnifiedTopology: true,
         useNewUrlParser: true,
